@@ -1,3 +1,3 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
-
-// Code your solution here
+// Assuming batteryData is an array of numbers representing assembled batteries
+const batteryData = [10, 7, 14]; // Example data
+const totalBatteries = batteryData.reduce((total, amount) => total + amount, 0);
